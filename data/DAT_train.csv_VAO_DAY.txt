@@ -1,0 +1,1 @@
+Đặt file train.csv vào thư mục này (tải từ Google Drive).

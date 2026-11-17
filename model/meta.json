@@ -1,0 +1,27 @@
+{
+  "model": "TF-IDF (1-2 gram) + Logistic Regression",
+  "n_samples": 5169,
+  "n_train": 4135,
+  "n_test": 1034,
+  "n_features": 10027,
+  "spam_ratio": 0.12633004449603405,
+  "metrics_on_test": {
+    "accuracy": 0.9922630560928434,
+    "precision": 0.984251968503937,
+    "recall": 0.9541984732824428,
+    "f1": 0.9689922480620154,
+    "roc_auc": 0.9950800131875934
+  },
+  "confusion_matrix": [
+    [
+      901,
+      2
+    ],
+    [
+      6,
+      125
+    ]
+  ],
+  "trained_on_all_data": false,
+  "sklearn_version": "1.9.1"
+}

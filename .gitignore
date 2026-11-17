@@ -1,0 +1,28 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dataset files (large files / raw data)
+data/train.csv
+data/*.csv
+!data/DAT_train.csv_VAO_DAY.txt
+
+# Distribution / Build
+build/
+dist/
+*.egg-info/
+
+# IDE / OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
